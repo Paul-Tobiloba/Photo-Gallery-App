@@ -50,7 +50,7 @@ class PhotoGallery {
             const item = document.createElement('div');
             item.classList.add('item');
             item.innerHTML = `
-            <a href="#">
+            <a href='${photo.src.original}' target='_blank'>
                 <img src="${photo.src.medium}">
                 <h3>${photo.photographer}</h3>
             </a>
