@@ -4,24 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo-Gallery-App</title>
+    <title>SakalGb Throwback Challenge</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/SakalGB-2.svg" alt="SakalGb-logo" />
+            </div>
+        </nav>
+    </header>
     <section>
+        
         <div class="container">
             <div class="header">
-                <h1 class="logo">PhotoGallery</h1>
-                <form>
-                    <input type="text" placeholder="Search Images">
-                    <ion-icon name="search-outline"></ion-icon>
-                </form>
+                <h1 class="logo">SakalGB TB Challenge</h1>
+                <button class="load-more" id="openPopup">Attempt Challenge</button>
+                <div id="popup" class="popup">
+                    <div class="popup-content">
+                        <span class="close" id="closePopup">&times;</span>
+                        <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=Idps1KyILEe2OEGDYyvwsqAl8B_q-l5NnCWKywuGf-FUQUg3OTRKVUQwQktLNDNERElGU1ZEUzJSUS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                    </div>
+                </div>
+        </div>
+            <div class="challenge-description">
+                <p>This is a throwback challenge where we have a throwback photo of each staff. Each staff is to identify the other 14 staff photos and fill the attached form stating the name of the staff each photo belongs to.</p>
+                <p><strong>NB:</strong> You need to guess at least 5 photos correctly to win a our vouchers.</p>
             </div>
             <div class="gallery">
                 
             </div>
-            <a class="load-more" data-img='curated'>Load More</a>
+            <button class="load-more" id="openPopup">Attempt Challenge</button>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span class="close" id="closePopup">&times;</span>
+                    <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=Idps1KyILEe2OEGDYyvwsqAl8B_q-l5NnCWKywuGf-FUQUg3OTRKVUQwQktLNDNERElGU1ZEUzJSUS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                </div>
+            </div>
+            <!-- <a class="load-more" href="https://forms.office.com/e/NVDeuF2TjT">Attempt Challenge</a>
+            <iframe width="640px" height="480px" src="https://forms.office.com/e/NVDeuF2TjT?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> -->
         </div>
     </section>
 </body>
